@@ -1,0 +1,27 @@
+@import "./bower_components/susy/sass/susy";
+
+
+$susy: (
+  columns: 12,  // The number of columns in your grid
+  gutters: .25,
+  math: fluid,
+  output: float, // this is the default value
+  gutter-position: after,
+  global-box-sizing: border-box 
+
+);
+@include border-box-sizing;
+
+
+
+@import "./mixins/_mixins.scss";
+@import "./base/_base.scss";
+@import "./components/_components.scss";
+
+@import "./fontello/css/fontello.css";
+
+
+
+@import "./pages/_pages.scss";
+
+

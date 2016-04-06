@@ -1,0 +1,24 @@
+// Colors
+// ==========================================================================
+
+$Pistachio: 	#C0C4B1;
+$Nameless: 		#798281;
+$Donatello: 	#2F3333;
+$WanderingStar: #32566E;
+
+
+// Fonts
+// ==========================================================================
+
+@include font-face(WorkSans-Light, "WorkSans-Light");
+
+$WorkSans-Light: "WorkSans-Light";
+
+@include font-face(WorkSans-Medium, "WorkSans-Medium");
+
+$WorkSans-Medium: "WorkSans-Medium";
+
+
+@include font-face(WorkSans-Regular, "WorkSans-Regular");
+
+$WorkSans-Regular: "WorkSans-Regular";

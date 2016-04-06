@@ -1,0 +1,11 @@
+
+<h1>{{title}}</h1>
+<p>{{message}}</p>
+
+
+{{user.role}}
+{{#isAdmin}}
+    {{! show admin navigation}}
+    <h2>Admin Navigation</h2>
+    <a href='/super/secret/admin/link>Secret Link</a>
+{{/isAdmin}}

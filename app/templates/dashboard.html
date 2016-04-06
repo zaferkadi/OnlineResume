@@ -1,0 +1,21 @@
+<h1><span class="icon-th"></span>{{title}}</h1> 
+<div class="cv">
+	<a href="/new">
+	<div class="icon-doc"></div>
+	<h4 class="title">New CV</h4>
+	<div class="date">&nbsp;</div>
+	</a>
+</div>
+{{#each cvs}}
+<div class="cv">
+    <a href="/cv/{{id}}">
+        <div class="icon-doc-text"></div>
+        <h4 class="title">
+            {{title}}
+        </h4>
+        <div class="date">
+            {{modified_date}}
+        </div>
+    </a>
+</div>
+{{/each}}

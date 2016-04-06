@@ -1,0 +1,41 @@
+.container {
+    @include container;
+    .header {
+        @include span(12 of 12);
+        //@include span(6);
+        @include nav;
+        @include account_mixin;
+        //@include span(6 last);
+    }
+    .content {
+        @include span(12 of 12);
+    }
+    .footer {
+        @include span(12 of 12);
+        //@include clearfix;
+    }
+}
+
+body {
+    background-color: white;
+    @include container(80%);
+    //color:red;
+}
+
+
+/*
+Style
+*/
+
+.container {
+    .header {
+    	position: relative;
+        border-bottom: 1px solid;
+    }
+    .content, .footer {
+        padding-top: 1em;
+    }
+    .footer {
+        border-top: 1px solid;   
+    }
+}
